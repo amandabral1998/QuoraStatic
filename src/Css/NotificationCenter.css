@@ -1,0 +1,32 @@
+.notification-center {
+    min-width: 32vw;
+    max-width: 60vw;
+    padding: 10px;
+}
+
+
+.right {
+    gap: 10px;
+}
+
+
+.notifications {
+    min-width: 32vw;
+    max-width: fit-content;
+    border: 0.1px solid gray;
+    height: fit-content;
+    gap: 5px;
+    background-color: rgb(178, 194, 208);
+}
+
+
+.notificationcontainer {
+    width: 100vw;
+    gap: 10px;
+}
+
+.notify {
+    border: 0.1px solid gray;
+    border-radius: 20px;
+    padding: 3px;
+}

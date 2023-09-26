@@ -1,0 +1,37 @@
+.quorabox {
+    min-width: 90%;
+    border: 0.1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.post-container {
+    min-width: 90%;
+    border: 0.1px solid gray;
+    border-radius: 10px;
+}
+
+.quorabox-write {
+    cursor: pointer;
+}
+
+.main-box {
+    width: 60vw;
+}
+
+
+
+@media (max-width:768px) {
+    .quorabox {
+       width: 58vw;
+    }
+    
+    .post-container {
+       width: 58vw;
+    }
+
+    .quorabox-write > h5{
+font-size: 16px;
+    }
+    
+}

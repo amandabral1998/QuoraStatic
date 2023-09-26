@@ -1,0 +1,28 @@
+.widget-title {
+    gap: 5px;
+    
+}
+
+.widget-title > p {
+    font-weight: 500;
+}
+
+@media (max-width:768px) {
+    .widget-title > p {
+        font-size: 13px;
+    }
+
+    .widget-title > small {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:552px) {
+    .widget-title > p {
+        font-size: 11px;
+    }
+
+    .widget-title > small {
+        font-size: 8px;
+    }
+}

@@ -1,0 +1,34 @@
+.sidebar {
+    max-width: 15vw;
+}
+.sidebar-options > img {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.sidebar-options {
+    display: flex;
+    gap: 5px;
+}
+
+
+@media (max-width:768px) {
+    .sidebar-options > p {
+     font-size: 13px;  
+    }
+}
+
+@media (max-width:552px) {
+    .sidebar-options > p {
+     font-size: 10px;  
+    }
+    .sidebar-options > img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .sidebar-options {
+       flex-wrap: wrap;
+    }
+}

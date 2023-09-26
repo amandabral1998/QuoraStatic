@@ -1,0 +1,13 @@
+.widget {
+    border: 0.1px solid gray;
+    border-radius: 10px;
+    height: fit-content;
+    max-width: 18vw;
+}
+
+
+/* @media (max-width:768px) {
+    .widget{
+        max-width: 16vw;
+    }
+} */

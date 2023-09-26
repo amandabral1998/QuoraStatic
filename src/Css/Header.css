@@ -1,0 +1,191 @@
+
+.quora-title {
+color: rgb(220, 53, 69);
+cursor: pointer;
+font-size: 40px;
+}
+
+
+.icons {
+    gap: 10px;
+}
+
+
+.icons .icon svg {
+    color: black;
+    transition: color 0.1s ease; 
+    cursor: pointer;
+}
+
+
+.icons .icon svg:hover {
+    color: rgb(220, 53, 69); 
+    transition-delay: 0.2s; 
+}
+
+
+.search {
+    max-width: fit-content;
+    border: 0.1px solid gray;
+    border-radius: 10px;
+    padding: 2px 5px;
+    overflow: hidden;
+}
+
+.search input {
+    border: none;
+
+}
+
+
+.quora-logo  Link {
+    text-decoration: none;
+}
+
+
+.modal-title {
+  gap: 10px;
+}
+
+/*  */
+.cancel {
+    width: 50%;
+  }
+  
+  .addQuestion{
+    width: 70%;
+  }
+  
+  .modal-field input:focus{
+    outline: none;
+  }
+  
+  .link-image {
+  object-fit: contain;
+    height: 40vh;
+  }
+  
+  /* Default styles for the button */
+  
+    /* Media query for screens below 992px */
+     @media (max-width: 992px) {
+      .btn {
+        font-size: 16px !important; 
+        padding: 3px !important; 
+      }
+    }
+  
+    @media (max-width: 768px) {
+      .addQue {
+        font-size: 13px;
+      }
+      .quora-title {
+        font-size: 30px;
+      }
+
+      .icons .icon svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .search {
+      width: 120px;
+    }
+
+    .search input {
+    font-size: 12px;
+
+    .modal-title > h5{
+      font-size: 15px;
+    }
+  }
+      
+      .btn {
+        font-size: 14px !important; 
+        padding: 1px !important; 
+       
+      }
+  
+      .cancel {
+        width: 40%;
+      }
+  
+      .addQuestion{
+        width: 60%;
+      }
+    } 
+
+    @media (max-width: 611px) {
+      
+      .addQue {
+        font-size: 11px;
+      }
+
+      .quora-title {
+        font-size: 25px;
+      }
+
+      .icons .icon svg {
+        width: 16px;
+        height: 16px;
+    }
+    .search {
+      width: 100px;
+    }
+
+    .search input {
+    font-size: 10px;
+  }
+      
+      .btn {
+        font-size: 13px !important; 
+        padding: 2px !important; 
+       
+      }
+  
+      .cancel {
+        width: 40%;
+      }
+  
+      .addQuestion{
+        width: 60%;
+      }
+    } 
+
+
+    @media (max-width: 552px) {
+      
+      .addQue {
+        font-size: 10px;
+      }
+
+      .quora-title {
+        font-size: 25px;
+      }
+
+      .icons .icon svg {
+        width: 16px;
+        height: 16px;
+    }
+    .search {
+      width: 100px;
+    }
+
+    .search input {
+    font-size: 10px;
+  }
+      
+      .btn {
+        font-size: 13px !important; 
+        padding: 2px !important; 
+       
+      }
+  
+      .cancel {
+        width: 40%;
+      }
+  
+      .addQuestion{
+        width: 60%;
+      }
+    } 
